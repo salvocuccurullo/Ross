@@ -30,7 +30,7 @@ Date:   Sun Jul 8 21:54:15 2018 +0200
 ```
 salvo@darkside:~/Work/Ross$ git revert --no-commit HEAD~2..HEAD
 ```
-Reverting using the range option: from HEAD to HEAD-2 (in this case also HEAD-2 only works)
+Reverting commits using the range: from HEAD-2 to HEAD (in this case also HEAD-2 only works)
 The option --no-commit is used to avoid to create commits with commit log messages stating which commits have been reverted.
 ```
 salvo@darkside:~/Work/Ross$ git status
