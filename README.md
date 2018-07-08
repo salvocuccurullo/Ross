@@ -1,12 +1,12 @@
 ```
 salvo@darkside:~/Work/Ross$ git log
 ```
-commit df5164033b12477cd4a63781ea5610629b0326f1 (HEAD -> master)
-Author: salvo <salvo.cuccurullo@gmailcom>
-Date:   Sun Jul 8 21:55:40 2018 +0200
-
-    Commit 4
-
+>commit df5164033b12477cd4a63781ea5610629b0326f1 (HEAD -> master)
+>Author: salvo <salvo.cuccurullo@gmailcom>
+>Date:   Sun Jul 8 21:55:40 2018 +0200
+>
+>    Commit 4
+>
 commit 671945c986a8a9f3db1da04d7b259cf5dccb1d5c
 Author: salvo <salvo.cuccurullo@gmailcom>
 Date:   Sun Jul 8 21:55:20 2018 +0200
