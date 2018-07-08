@@ -31,6 +31,7 @@ Date:   Sun Jul 8 21:54:15 2018 +0200
 salvo@darkside:~/Work/Ross$ git revert --no-commit HEAD~2..HEAD
 salvo@darkside:~/Work/Ross$ git status
 ```
+<pre>
 On branch master
 You are currently reverting commit 671945c.
   (all conflicts fixed: run "git revert --continue")
@@ -45,11 +46,13 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
 	README.md
+</pre>
 ```
 salvo@darkside:~/Work/Ross$ cat file.py 
 ```
-
+<pre>
 #st="COMMIT 1"
 st="COMMIT 2"
 print st
 salvo@darkside:~/Work/Ross$
+</pre>
