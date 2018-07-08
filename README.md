@@ -61,3 +61,9 @@ st="COMMIT 2"
 print st
 salvo@darkside:~/Work/Ross$
 </pre>
+Using above revert method the commits history is not lost.
+To get rid of commits, the git reset can be used:
+
+```
+git reset --hard <commit-id>
+```
