@@ -1,4 +1,6 @@
+```
 salvo@darkside:~/Work/Ross$ git log
+```
 commit df5164033b12477cd4a63781ea5610629b0326f1 (HEAD -> master)
 Author: salvo <salvo.cuccurullo@gmailcom>
 Date:   Sun Jul 8 21:55:40 2018 +0200
@@ -23,10 +25,11 @@ Date:   Sun Jul 8 21:54:15 2018 +0200
 
     Commit 1
 
-======================================================
 
+```
 salvo@darkside:~/Work/Ross$ git revert --no-commit HEAD~2..HEAD
 salvo@darkside:~/Work/Ross$ git status
+```
 On branch master
 You are currently reverting commit 671945c.
   (all conflicts fixed: run "git revert --continue")
@@ -41,8 +44,9 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
 	README.md
-
+```
 salvo@darkside:~/Work/Ross$ cat file.py 
+```
 
 #st="COMMIT 1"
 st="COMMIT 2"
